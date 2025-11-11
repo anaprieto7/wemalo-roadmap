@@ -1,0 +1,32 @@
+@tailwind components;
+
+@layer components {
+  .roadmap-column {
+    @apply rounded-3xl min-w-[280px] max-w-[320px] 
+           flex flex-col 
+           p-2 space-y-4 /* <-- ¡CLAVE! Añade padding y espacio entre tarjetas */
+           shadow-[0_8px_20px_rgba(0,158,127,0.08)]
+           border border-white/30 
+           bg-white/10 
+           backdrop-blur-md /* Un poco más de blur suele verse mejor */
+           backdrop-saturate-150 
+           transition-all duration-300 /* 300ms es más rápido y moderno */
+           hover:-translate-y-3 /* -1 es más sutil que -2 */
+           hover:shadow-xl; 
+  }
+
+.roadmap-item {
+    @apply bg-white /* Fondo blanco sólido para MÁXIMA legibilidad */
+           rounded-xl p-4 /* Más padding interno */
+           shadow-sm 
+           text-sm text-gray-800 /* Texto más oscuro para contraste */
+           transition-all duration-200
+           hover:shadow-md hover:scale-[1.02]; /* Micro-interacción */
+  }
+
+  .roadmap-tag {
+    @apply inline-block text-[11px] font-semibold text-white
+           px-2.5 py-1 /* Un poco más de aire */
+           rounded-full;
+  }
+}

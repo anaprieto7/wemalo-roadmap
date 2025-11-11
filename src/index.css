@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos base globales */
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html,
+  body,
+  #root {
+    @apply h-full m-0 p-0;
+  }
+
+  body {
+    @apply bg-gray-900 text-slate-100 font-sans;
+  }
+
+}
