@@ -31,7 +31,7 @@ function RoadmapBoard() {
       </header>
 
    
-    <div className="bg-slate-900 h-48"></div> 
+    <div className="bg-orange-900 h-48"></div> 
 
       <main className="flex-1 overflow-x-auto relative -mt-48 z-10 px-6 py-6">
         <div className="flex gap-4 min-h-[calc(100vh-160px)]"> {/* Ajuste de altura */}
