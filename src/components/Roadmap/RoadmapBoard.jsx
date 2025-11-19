@@ -14,7 +14,7 @@ function RoadmapBoard() {
           <div className="w-9 h-9 rounded-xl bg-white text-slate-900 flex items-center justify-center font-bold text-lg">
             W
           </div>
-          <span className="font-semibold text-slate-900 text-lg">WEMALO Roadmap</span>
+          <span className="font-semibold text-slate-100 text-lg">WEMALO Roadmap</span>
         </div>
 
         <div className="flex items-center gap-3 text-sm">
